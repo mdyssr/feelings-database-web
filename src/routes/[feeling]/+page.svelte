@@ -6,7 +6,7 @@
 
 <div class="container">
   <div class="top">
-    <a href="/" class="back">
+    <a href="/" class="back" data-sveltekit-replacestate>
       <Icon icon="ic:twotone-arrow-forward" color="#000;" />
       <div class="text">رجوع</div>
     </a>

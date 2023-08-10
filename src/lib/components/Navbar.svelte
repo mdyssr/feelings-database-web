@@ -1,19 +1,19 @@
 <nav>
   <ul>
     <li>
-      <a href="/">
+      <a href="/" data-sveltekit-replacestate>
         <!-- <Icon icon="teenyicons:forward-solid" color="wheat" /> -->
         الرئيسية
       </a>
     </li>
     <li>
-      <a href="/عن-التطبيق">
+      <a href="/عن-التطبيق" data-sveltekit-replacestate>
         <!-- <Icon icon="teenyicons:forward-solid" color="wheat" /> -->
         عن التطبيق
       </a>
     </li>
     <li>
-      <a href="/اتصل-بنا">
+      <a href="/اتصل-بنا" data-sveltekit-replacestate>
         <!-- <Icon icon="teenyicons:forward-solid" color="wheat" /> -->
         اتصل بنا
       </a>

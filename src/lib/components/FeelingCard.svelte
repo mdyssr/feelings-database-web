@@ -3,7 +3,7 @@
   export let to: string;
 </script>
 
-<a href={to}>
+<a href={to} data-sveltekit-replacestate>
   <div class="feeling">{title}</div>
 </a>
 
