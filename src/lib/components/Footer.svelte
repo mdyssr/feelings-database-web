@@ -4,7 +4,6 @@
 
 <style>
   footer {
-    background-color: #333;
     padding: 0 1rem;
     display: flex;
     justify-content: center;
