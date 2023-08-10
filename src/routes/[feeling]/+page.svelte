@@ -7,7 +7,7 @@
 <div class="container">
   <div class="top">
     <a href="/" class="back" data-sveltekit-replacestate>
-      <Icon icon="ic:twotone-arrow-forward" color="#000;" />
+      <Icon icon="ic:round-arrow-forward-ios" color="#000;" />
       <div class="text">رجوع</div>
     </a>
     <div class="title">
@@ -44,8 +44,8 @@
   .back {
     display: flex;
     justify-content: right;
-    align-items: self-end;
-    gap: 8px;
+    align-items: center;
+    gap: 4px;
     font-size: 1rem;
     color: #000;
     padding: 0;
@@ -60,18 +60,20 @@
     .top {
       display: flex;
       justify-content: stretch;
-      align-items: center;
+      align-items: stretch;
       background-color: aquamarine;
       padding: 0 1rem;
 
       .back {
         flex-grow: 1;
+        align-items: center;
         justify-content: right;
+        padding: 0;
+        margin: 0;
       }
 
       .title {
         flex-grow: 1;
-
         background-color: transparent;
         justify-content: right;
       }

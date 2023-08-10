@@ -1,21 +1,21 @@
 <nav>
   <ul>
     <li>
-      <a href="/" data-sveltekit-replacestate>
+      <a href="/">
         <!-- <Icon icon="teenyicons:forward-solid" color="wheat" /> -->
         الرئيسية
       </a>
     </li>
     <li>
-      <a href="/عن-التطبيق" data-sveltekit-replacestate>
+      <a href="/عن-التطبيق">
         <!-- <Icon icon="teenyicons:forward-solid" color="wheat" /> -->
         عن التطبيق
       </a>
     </li>
     <li>
-      <a href="/اتصل-بنا" data-sveltekit-replacestate>
+      <a href="/تواصل-معنا">
         <!-- <Icon icon="teenyicons:forward-solid" color="wheat" /> -->
-        اتصل بنا
+        تواصل معنا
       </a>
     </li>
   </ul>
@@ -43,6 +43,10 @@
 
     a {
       color: #fff;
+
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 </style>

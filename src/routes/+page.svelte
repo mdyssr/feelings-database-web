@@ -21,6 +21,8 @@
   #container {
     padding: 1rem;
     user-select: none;
+    max-width: 600px;
+    margin: 0 auto;
   }
   #question {
     background: orange;
