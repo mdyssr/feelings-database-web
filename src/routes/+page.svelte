@@ -18,6 +18,10 @@
 </div>
 
 <style lang="scss">
+  #container {
+    padding: 1rem;
+    user-select: none;
+  }
   #question {
     background: orange;
   }

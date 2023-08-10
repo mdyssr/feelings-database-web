@@ -7,6 +7,7 @@ export const load = (({ params }) => {
   const content = feelingsDB.get(feeling);
 
   return {
+    feeling,
     content,
   };
 }) satisfies PageServerLoad;

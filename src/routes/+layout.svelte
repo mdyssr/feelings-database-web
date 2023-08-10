@@ -1,34 +1,18 @@
 <script>
   import "$lib/style/app.css";
-  import Icon from "@iconify/svelte";
+  import Footer from "$lib/components/Footer.svelte";
+  import Navbar from "$lib/components/Navbar.svelte";
 </script>
 
 <svelte:head>
   <title>قاعدة بيانات المشاعر</title>
 </svelte:head>
 
-<nav>
-  <ul>
-    <li>
-      <a href="/">
-        <!-- <Icon icon="teenyicons:forward-solid" color="wheat" /> -->
-        الرئيسية
-      </a>
-    </li>
-    <li>
-      <a href="/اتصل-بنا">
-        <!-- <Icon icon="teenyicons:forward-solid" color="wheat" /> -->
-        اتصل بنا
-      </a>
-    </li>
-  </ul>
-</nav>
+<Navbar />
 
 <slot />
 
-<footer>
-  <p>صيفة للانتاج الفني 2023. جميع الحقوق محفوظة.</p>
-</footer>
+<Footer />
 
 <style lang="scss">
   nav {
