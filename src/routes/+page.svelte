@@ -24,6 +24,7 @@
   }
   #question {
     background: orange;
+    padding: 0 1rem;
   }
 
   #feelings {

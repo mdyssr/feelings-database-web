@@ -5,13 +5,15 @@
 </script>
 
 <div class="container">
-  <a href="/" class="back">
-    <Icon icon="ic:twotone-arrow-forward" color="#333;" />
-    <div class="text">رجوع</div>
-  </a>
-  <div class="title">
-    <div class="name">
-      {data.feeling}
+  <div class="top">
+    <a href="/" class="back">
+      <Icon icon="ic:twotone-arrow-forward" color="#000;" />
+      <div class="text">رجوع</div>
+    </a>
+    <div class="title">
+      <div class="name">
+        {data.feeling}
+      </div>
     </div>
   </div>
   <div class="content">{data.content}</div>
@@ -28,12 +30,10 @@
 
   .title {
     background-color: aquamarine;
-    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin-bottom: 2rem;
+    height: 4rem;
 
     .name {
       font-size: 2rem;
@@ -44,9 +44,37 @@
   .back {
     display: flex;
     justify-content: right;
-    align-items: center;
+    align-items: self-end;
     gap: 8px;
     font-size: 1rem;
-    color: #333;
+    color: #000;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .content {
+    margin-top: 2rem;
+  }
+
+  @media (min-width: 412px) {
+    .top {
+      display: flex;
+      justify-content: stretch;
+      align-items: center;
+      background-color: aquamarine;
+      padding: 0 1rem;
+
+      .back {
+        flex-grow: 1;
+        justify-content: right;
+      }
+
+      .title {
+        flex-grow: 1;
+
+        background-color: transparent;
+        justify-content: right;
+      }
+    }
   }
 </style>
