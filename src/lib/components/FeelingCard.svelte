@@ -13,7 +13,7 @@
     max-width: 200px;
     min-height: 1rem;
     background-color: black;
-    box-shadow: 5px 5px green;
+    box-shadow: 5px 5px violet;
     font-size: 2rem;
     display: flex;
     justify-content: center;
